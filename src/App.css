@@ -1,0 +1,552 @@
+/* headerコンポーネント */
+.header-container {
+  height: 100vh;
+  width: 100%;
+}
+.header-wrapper {
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header-wrapper-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cloud-img {
+  animation: fwari ease-in-out 3s infinite alternate;
+  -webkit-animation: fwari ease-in-out 3s infinite alternate;
+  -moz-animation: fwari ease-in-out 3s infinite alternate;
+}
+
+@keyframes fwari {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(0%, -25px);
+  }
+}
+@-webkit-keyframes fwari {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(0%, -25px);
+  }
+}
+
+@-moz-keyframes fwari {
+  0% {
+    -moz-transform: translate(0%, 0%);
+  }
+  100% {
+    -moz-transform: translate(0%, -25px);
+  }
+}
+
+.cloud-img img {
+  width: 500px;
+  margin-right: 150px;
+}
+
+.icon-img img {
+  border-radius: 50%;
+  margin-left: 150px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.header-text-box {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.header-text-box p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.yajirusi {
+  margin-bottom: 100px;
+}
+.yajirusi img {
+  position: absolute;
+  top: 82%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  animation: engine 0.2s infinite;
+  -webkit-animation: engine 0.2s infinite;
+  -moz-animation: engine 0.2s infinite;
+}
+@keyframes engine {
+  0% {
+    transform: scale(1, 1) translate(0%, 0%);
+  }
+  50% {
+    transform: scale(1, 0.98) translate(0%, 1.5%);
+  }
+  100% {
+    transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+@-webkit-keyframes engine {
+  0% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: scale(1, 0.98) translate(0%, 1.5%);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+@-moz-keyframes engine {
+  0% {
+    -moz-transform: scale(1, 1) translate(0%, 0%);
+  }
+  50% {
+    -moz-transform: scale(1, 0.98) translate(0%, 1.5%);
+  }
+  100% {
+    -moz-transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+
+/* Skill */
+
+.skill-profile-box {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.skill-profile {
+  width: 480px;
+  height: 500px;
+  background: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 150px;
+}
+.skill-profile:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+.skill-profile p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill-container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.skill-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.skill-container-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+.skill-box {
+  width: 230px;
+  height: 150px;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+.skill-box:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+.skill-box p {
+  padding-top: 20px;
+}
+.skill-coment-box {
+  background: #f2f2f2;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.skill-coment-img img {
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 50px 15px 80px 15px;
+}
+.skill-coment-img1 {
+  position: relative;
+}
+
+.skill-coment-img1 img {
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+.skill-coment-img1-text {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+.skill-coment-img1-text p {
+  letter-spacing: 2px;
+}
+
+/* //Serachコンポーネント */
+
+.App h2 {
+  text-align: center;
+}
+.main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+input {
+  border: 3px solid #32e17c;
+  height: 40px;
+  width: 250px;
+  border-radius: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+.pushbtn {
+  margin-left: 10px;
+  width: 80px;
+  height: 40px;
+  background: #32e17c;
+  border-style: none;
+  color: white;
+}
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+}
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* footer */
+
+.footer h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.footer-wrapper-text {
+  text-align: center;
+  font-size: 1rem;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-wrapper-box {
+  margin-bottom: 100px;
+}
+.footer-wrapper-box img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  animation: fwari ease-in-out 3s infinite alternate;
+  -webkit-animation: fwari ease-in-out 3s infinite alternate;
+  -moz-animation: fwari ease-in-out 3s infinite alternate;
+}
+.btn-box {
+  text-align: center;
+}
+.footer-btn {
+  display: inline-block;
+  background: orange;
+  color: #fff;
+  padding: 16px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  font-size: 24px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.footer-btn:hover {
+  background: #fff;
+  color: orange;
+}
+
+.btn-box-text {
+  margin-bottom: 50px;
+}
+
+/* レスポンシブ */
+
+@media screen and (max-width: 820px) {
+  .header-container {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .header-wrapper {
+    width: 90%;
+    height: 600px;
+    top: 45%;
+  }
+  .cloud-img img {
+    width: 300px;
+    margin-right: 0;
+  }
+
+  .icon-img img {
+    margin-left: 0;
+  }
+  .header-text-box {
+    top: 30px;
+    left: 30px;
+  }
+  .header-text-box p {
+    font-size: 14px;
+  }
+  .yajirusi {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .yajirusi img {
+    position: absolute;
+    top: 85%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+  }
+
+  /* skill */
+  .skill-profile-box {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 100px;
+  }
+  .skill-profile {
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  .skill-profile p {
+    width: 80%;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .skill-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .skill-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }
+  .skill-container-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .skill-box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+  }
+  .skill-box:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+  }
+  .skill-box p {
+    padding-top: 20px;
+  }
+  .skill-coment-box {
+    margin-bottom: 30px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+  }
+  .skill-coment-img img {
+    margin: 50px 15px 30px 15px;
+  }
+  .skill-coment-img1 {
+    position: static;
+  }
+
+  .skill-coment-img1 img {
+    display: none;
+  }
+  .skill-coment-img1-text {
+    position: static;
+    background: white;
+    border-radius: 30px;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  .skill-coment-img1-text p {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  /* サーチ */
+
+  .main {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  input {
+    border: 3px solid #32e17c;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+  }
+
+  .pushbtn {
+    width: 80px;
+    height: 40px;
+  }
+  .container {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+  }
+  .card-img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .card-content {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+  /* footer */
+
+  .footer h2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+  }
+  .footer-wrapper-text {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer-wrapper-box {
+    margin-bottom: 50px;
+  }
+  .footer-wrapper-box img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  .btn-box {
+    text-align: center;
+  }
+  .footer-btn {
+    display: inline-block;
+    background: orange;
+    color: #fff;
+    padding: 16px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    font-size: 24px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+  }
+  .footer-btn:hover {
+    background: #fff;
+    color: orange;
+  }
+
+  .btn-box-text {
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+  }
+}
